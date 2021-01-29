@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Util {
-    public static <K, V> Map<K, V> castHash(Map input,
+    public static <K, V> Map<K, V> castHash(Map<K,V> input,
                                             Class<K> keyClass,
                                             Class<V> valueClass) {
         Map<K, V> output = new HashMap<K, V>();
